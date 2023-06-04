@@ -115,7 +115,7 @@ ul {
 }
 
 li {
-	/* list-style: none; */
+	list-style: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -510,6 +510,7 @@ header.header {
 .navbar .navbar-brand .logo-display {
 	display: block;
     color: white;
+    width: 60px;
 }
 
 .navbar .navbar-brand .logo-scrolled {
@@ -2595,11 +2596,16 @@ header.header {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: rgba(110, 65, 254,0.102);
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     display: block;
 	text-align: center;
 	line-height: 6rem;
+}
+
+.wrp-icon span img{
+    max-width: 50%;
+    vertical-align: super;
 }
 
 .wrp-right ul li {
@@ -2615,6 +2621,10 @@ header.header {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
+}
+
+.wrp-info {
+    font-weight: 1.4rem;
 }
 
 .wrp-area::before {

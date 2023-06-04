@@ -8,6 +8,12 @@
 ;(function ($) {
   'use strict'
   $('#portfolio_comp').load('/ourportfolio.html')
+  $('#footerComp').load('/footerComp.html')
+  //   $('#navbarComp').load('/navbarComp.html')
+
+  $.get('./navbarComp.html', function (data) {
+    $('#navbarComp').replaceWith(data)
+  })
 
   $(document).on('ready', function () {
     /* ==================================================
@@ -36,7 +42,6 @@
     /* ==================================================
             # Smooth Scroll
          =============================================== */
-
     $('body').scrollspy({
       target: '.navbar-collapse',
       offset: 200,
