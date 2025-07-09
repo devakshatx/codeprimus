@@ -1,7 +1,7 @@
 /* ===================================================================
     
     Author          : Kazi Sahiduzzaman
-    Template Name   : Marco - Creative & Digital Agency HTML template
+    Template Name   : Marco - Creative & Digital Agency 
     Version         : 1.0
     
 * ================================================================= */
